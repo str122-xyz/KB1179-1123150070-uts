@@ -27,3 +27,4 @@ flutter run
 * Update tampilan splashscreen 3 : ganti gambar, teks title subtitle, bullet aktif
 * Menambahkan folder dan file login
 * Navigasi splash screen 3 to login
+* Menambahkan icon
