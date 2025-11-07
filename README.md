@@ -22,3 +22,6 @@ flutter run
 * Menambahkan button continue dengan lebar dan margin penuh pada layar splash
 * Menyesuaikan tata letak dengan Spacer
 * Menambahkan file splash screen 2 & 3 di folder lib/screen
+* Navigasi ke splash screen 2
+* Update tampilan splashscreen 2 : ganti gambar, teks title subtitle, bullet aktif dan navigasi ke splash screen 3
+* Update tampilan splashscreen 3 : ganti gambar, teks title subtitle, bullet aktif

@@ -25,57 +25,61 @@ class SplashScreen3 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.black,
                 image: DecorationImage(
-                  image: AssetImage("assets/logo.png"),
+                  image: AssetImage("assets/logo3.png"),
                   fit: BoxFit.cover,
                 ),
               ),
             ),
             SizedBox(height: 10),
             Text(
-              "Welcome Selamat Datang",
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              "Welcome Selamat Datang 3",
+              style: TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.indigo,
+              ),
             ),
             SizedBox(height: 10),
             Text(
-              "Mau tau ramalan cuaca hari ini?",
+              "Mending coba aja sekarang",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16.0,
-                color: Colors.black,
-                fontWeight: FontWeight.normal,
+                color: Colors.indigo,
+                fontWeight: FontWeight.bold,
               ),
             ),
             SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                //Bullet aktif
+                //Bullet non-aktif
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color(0xFFedede9),
+                  ),
+                ),
+                SizedBox(width: 10),
+                // Bullet non-aktif
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color(0xFFedede9),
+                  ),
+                ),
+                SizedBox(width: 10),
+                // Bullet aktif
                 Container(
                   width: 10,
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: Colors.lightBlue,
-                  ),
-                ),
-                SizedBox(width: 10),
-                // Bullet non-aktif
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Color(0xFFedede9),
-                  ),
-                ),
-                SizedBox(width: 10),
-                // Bullet non-aktif
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Color(0xFFedede9),
                   ),
                 ),
               ],
@@ -91,7 +95,7 @@ class SplashScreen3 extends StatelessWidget {
                     //To splashscrenn2
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.lightBlue,
+                    backgroundColor: Colors.indigo,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
