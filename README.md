@@ -14,3 +14,4 @@ flutter run
 * Menambahkan asset image dan menambahkan gambar di container
 * Menambahkan title teks
 * Menambahkan subtitle teks
+* Menambahkan bullet indikator
