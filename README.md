@@ -9,6 +9,7 @@ flutter run
 
 * First Commit
 * Create page utama dan theme
+* Update tema title sesuai dengan NIM dan nama
 * Create splash screen scaffold awal
 * Membuat children yang menampung banyak widget children
 * Menambahkan asset image dan menambahkan gambar di container
