@@ -1,5 +1,19 @@
 # flutter_tests
 
+**Preview Desktop:**
+
+![Tampilan Aplikasi Dekstop 1](assets/ssd1.png)
+![Tampilan Aplikasi Dekstop 2](assets/ssd2.png)
+![Tampilan Aplikasi Desktop 3](assets/ssd3.png)
+![Tampilan Aplikasi Desktop 4](assets/ssd4.png)
+
+**Preview Android:**
+
+![Tampilan Aplikasi Android 1](assets/ssa1.png)
+![Tampilan Aplikasi Desktop 2](assets/ssa2.png)
+![Tampilan Aplikasi Desktop 3](assets/ssa3.png)
+![Tampilan Aplikasi Desktop 4](assets/ssa4.png)
+
 **1123150070**<br>
 **Satria Herlambang**
 
