@@ -28,3 +28,4 @@ flutter run
 * Menambahkan folder dan file login
 * Navigasi splash screen 3 to login
 * Menambahkan icon
+* Menambahkan title dan subtitle
