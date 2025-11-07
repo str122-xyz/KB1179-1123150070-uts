@@ -9,6 +9,14 @@ class SplashScreen1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(actions: const []),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [SizedBox(height: 50)],
+        ),
+      ),
+    );
   }
 }
