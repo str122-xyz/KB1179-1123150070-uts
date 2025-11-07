@@ -16,3 +16,4 @@ flutter run
 * Menambahkan subtitle teks
 * Menambahkan bullet indikator
 * Menambahkan button continue dengan lebar dan margin penuh pada layar splash
+* Menyesuaikan tata letak dengan Spacer
