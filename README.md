@@ -30,3 +30,4 @@ flutter run
 * Menambahkan icon
 * Menambahkan title dan subtitle
 * Input text email
+* Input text password
