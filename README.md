@@ -32,3 +32,4 @@ flutter run
 * Input text email
 * Input text password
 * Button login
+* Register

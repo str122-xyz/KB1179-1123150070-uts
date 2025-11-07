@@ -109,6 +109,25 @@ class Login extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text("Belum punya akun? "),
+                  GestureDetector(
+                    onTap: () {
+                      // TODO: arahkan ke halaman register
+                    },
+                    child: Text(
+                      "Daftar",
+                      style: TextStyle(
+                        color: Colors.blue[700],
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
