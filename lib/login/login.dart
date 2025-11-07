@@ -85,7 +85,7 @@ class Login extends StatelessWidget {
                   onPressed: () {},
                   child: Text(
                     "Lupa Password?",
-                    style: TextStyle(color: Colors.blue[700], fontSize: 14),
+                    style: TextStyle(color: Colors.indigo[700], fontSize: 14),
                   ),
                 ),
               ),
@@ -121,7 +121,7 @@ class Login extends StatelessWidget {
                     child: Text(
                       "Daftar",
                       style: TextStyle(
-                        color: Colors.blue[700],
+                        color: Colors.indigo[700],
                         fontWeight: FontWeight.bold,
                       ),
                     ),
