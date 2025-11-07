@@ -25,3 +25,5 @@ flutter run
 * Navigasi ke splash screen 2
 * Update tampilan splashscreen 2 : ganti gambar, teks title subtitle, bullet aktif dan navigasi ke splash screen 3
 * Update tampilan splashscreen 3 : ganti gambar, teks title subtitle, bullet aktif
+* Menambahkan folder dan file login
+* Navigasi splash screen 3 to login
