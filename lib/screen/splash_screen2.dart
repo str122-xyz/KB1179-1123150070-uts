@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tests/screen/splash_screen3.dart';
 
 void main() {
   runApp(SplashScreen2());
@@ -25,19 +26,19 @@ class SplashScreen2 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.black,
                 image: DecorationImage(
-                  image: AssetImage("assets/logo.png"),
+                  image: AssetImage("assets/logo2.png"),
                   fit: BoxFit.cover,
                 ),
               ),
             ),
             SizedBox(height: 10),
             Text(
-              "Welcome Selamat Datang",
+              "Welcome Selamat Datang 2",
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10),
             Text(
-              "Mau tau ramalan cuaca hari ini?",
+              "Coba aja MyCloud",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16.0,
@@ -49,23 +50,23 @@ class SplashScreen2 extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                //Bullet aktif
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.lightBlue,
-                  ),
-                ),
-                SizedBox(width: 10),
-                // Bullet non-aktif
+                //Bullet non-aktif
                 Container(
                   width: 10,
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color(0xFFedede9),
+                  ),
+                ),
+                SizedBox(width: 10),
+                // Bullet aktif
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.lightBlue,
                   ),
                 ),
                 SizedBox(width: 10),
@@ -88,10 +89,13 @@ class SplashScreen2 extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    //To splashscrenn2
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => SplashScreen3()),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.lightBlue,
+                    backgroundColor: Colors.blueGrey,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
