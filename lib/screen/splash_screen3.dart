@@ -47,7 +47,7 @@ class SplashScreen3 extends StatelessWidget {
               style: TextStyle(
                 fontSize: 16.0,
                 color: Colors.indigo,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.normal,
               ),
             ),
             SizedBox(height: 20),
@@ -93,9 +93,10 @@ class SplashScreen3 extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.push(
+                    Navigator.pushAndRemoveUntil(
                       context,
-                      MaterialPageRoute(builder: (context) => Login()),
+                      MaterialPageRoute(builder: (context) => const Login()),
+                      (Route<dynamic> route) => false,
                     );
                   },
                   style: ElevatedButton.styleFrom(
