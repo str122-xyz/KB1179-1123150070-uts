@@ -29,3 +29,4 @@ flutter run
 * Navigasi splash screen 3 to login
 * Menambahkan icon
 * Menambahkan title dan subtitle
+* Input text email
