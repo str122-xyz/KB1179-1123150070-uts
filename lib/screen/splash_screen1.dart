@@ -79,6 +79,29 @@ class SplashScreen1 extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(height: 35),
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 35),
+              child: SizedBox(
+                height: 40,
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {
+                    //To splashscrenn2
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.lightBlue,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                  ),
+                  child: Text(
+                    "Continue",
+                    style: TextStyle(fontSize: 16, color: Colors.white),
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
