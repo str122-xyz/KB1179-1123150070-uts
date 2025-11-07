@@ -34,6 +34,16 @@ class SplashScreen1 extends StatelessWidget {
               "Welcome Selamat Datang",
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
+            SizedBox(height: 10),
+            Text(
+              "Mau tau ramalan cuaca hari ini?",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 16.0,
+                color: Colors.black,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
           ],
         ),
       ),

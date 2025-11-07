@@ -12,3 +12,5 @@ flutter run
 * Create splash screen scaffold awal
 * Membuat children yang menampung banyak widget children
 * Menambahkan asset image dan menambahkan gambar di container
+* Menambahkan title teks
+* Menambahkan subtitle teks
