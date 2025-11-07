@@ -1,5 +1,8 @@
 # flutter_tests
 
+**1123150070**
+**Satria Herlambang**
+
 **How to Run:**
 ```bash
 flutter run
@@ -18,3 +21,4 @@ flutter run
 * Menambahkan bullet indikator
 * Menambahkan button continue dengan lebar dan margin penuh pada layar splash
 * Menyesuaikan tata letak dengan Spacer
+* Menambahkan file splash screen 2 & 3 di folder lib/screen
